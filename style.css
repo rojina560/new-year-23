@@ -9,8 +9,7 @@ body{
 }
 .header-container{
     position: relative;
-    border: 1px solid red;
-    background: gray;
+    background: #fdf5f5;
     
 }
 .header-container{
@@ -34,7 +33,7 @@ body{
   padding: 15px 0;
 }
 .btn-primary{
-    padding:20px ;
+    padding: 15px 20px ;
     border-radius: 5px;
     background: #F15B22;
     color: white;
@@ -47,7 +46,7 @@ body{
     display: flex;
     align-items: center;
     gap: 150px;
-    padding: 70px 200px;
+    padding: 100px 200px;
     background: #fff;
 }
 .previous-img img{
@@ -79,4 +78,73 @@ li:before {
     font-size: 25px;
     font-weight: 800;
    }
- 
+   /* my plan section code */
+   .my-plan-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 200px;
+    text-align: center;
+    
+   }
+   .plan-item h3{
+    font-size: 25px;
+    padding: 10px 0;
+   }
+   .plan-item p{
+    color: #444343;
+    font-weight:600;
+    font-size: 18px;
+   }
+   .my-plan{
+    text-align: center;
+    font-size: 30px;
+   }
+   /* watch section code  */
+   .watch-section{
+    width: 1000px;
+    height: 250px;
+    margin:70px auto ;
+     background-image: url("images/gradient2.png"),url("images/watch.png");
+    background-repeat: no-repeat;
+   }
+   .watch-section h2{
+    padding: 50px 50px 15px;
+    font-size: 40px;
+    color: #fff;
+
+   }
+   .btn{
+    margin-left: 50px;
+    background:#fff ;
+    color: #F15B22;
+    font-weight: 600;
+   }
+   /* footer section code */
+   footer{
+    background: #000;
+   }
+   .footer-container{
+    display: flex;
+    padding: 100px 200px;
+    gap: 200px;
+
+    
+   }
+   .footer-container h2{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #fff;
+   }
+   .footer-container p{
+    color: grey;
+    padding-bottom: 15px;
+   }
+   .social-link a{
+    margin: 0px 15px;
+   }
+   .footer-form input{
+    padding: 15px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   }
